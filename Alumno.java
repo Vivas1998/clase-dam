@@ -40,7 +40,7 @@ public class Alumno {
      * Imprime por pantalla los detalles del alumno
      */
     public void imprimeDetalles() {
-        System.out.println(nombre + " (" + numeroMatricula + ") - " + edad + " años");
+        System.out.println(nombre + " (" + numeroMatricula + ") - " + edad + " anos");
     }
     
     /**
@@ -64,5 +64,12 @@ public class Alumno {
         }
         
         return nombreUser + matriculaUser;
+    }
+    
+    /**
+     * Imprimir detalles del alumno
+     */
+    public String imprimirListaAlumnos() {
+        return ". " + nombre + " (" + numeroMatricula + ") - " + edad + " anos";
     }
 }
